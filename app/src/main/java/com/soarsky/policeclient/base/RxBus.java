@@ -2,7 +2,8 @@ package com.soarsky.policeclient.base;
 
 import android.support.annotation.NonNull;
 
-import com.lenovo.quickapp.uitl.LogUtil;
+
+import com.soarsky.policeclient.uitl.LogUtil;
 
 import java.util.ArrayList;
 import java.util.Collection;

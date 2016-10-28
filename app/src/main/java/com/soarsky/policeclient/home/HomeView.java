@@ -1,7 +1,7 @@
 package com.soarsky.policeclient.home;
 
-import com.lenovo.quickapp.base.BaseView;
-import com.lenovo.quickapp.data.local.db.bean.Note;
+import com.soarsky.policeclient.base.BaseView;
+import com.soarsky.policeclient.data.local.db.bean.Note;
 
 import java.util.List;
 

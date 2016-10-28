@@ -2,9 +2,9 @@ package com.soarsky.policeclient.data.remote.server1;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.lenovo.quickapp.App;
-import com.lenovo.quickapp.Constants;
-import com.lenovo.quickapp.uitl.NetWorkUtil;
+import com.soarsky.policeclient.App;
+import com.soarsky.policeclient.Constants;
+import com.soarsky.policeclient.uitl.NetWorkUtil;
 
 import java.io.File;
 import java.io.IOException;

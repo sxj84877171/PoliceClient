@@ -13,7 +13,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.lenovo.quickapp.helper.GlideCircleTransform;
+import com.soarsky.policeclient.helper.GlideCircleTransform;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;

@@ -2,10 +2,11 @@ package com.soarsky.policeclient.home;
 
 import android.app.Activity;
 
-import com.lenovo.quickapp.App;
-import com.lenovo.quickapp.base.BaseModel;
-import com.lenovo.quickapp.data.local.db.bean.Note;
-import com.lenovo.quickapp.data.local.db.dao.DaoSession;
+
+import com.soarsky.policeclient.App;
+import com.soarsky.policeclient.base.BaseModel;
+import com.soarsky.policeclient.data.local.db.bean.Note;
+import com.soarsky.policeclient.data.local.db.dao.DaoSession;
 
 import org.greenrobot.greendao.rx.RxDao;
 import org.greenrobot.greendao.rx.RxQuery;

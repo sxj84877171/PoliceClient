@@ -45,7 +45,7 @@ public class Note {
     public void setId(Long id) {
         this.id = id;
     }
-    @Generated(hash = 1028896452)
+    @Generated(hash = 1961626152)
     public Note(Long id, @NotNull String text, String comment, Date date) {
         this.id = id;
         this.text = text;
@@ -55,6 +55,7 @@ public class Note {
     @Generated(hash = 1272611929)
     public Note() {
     }
+
 
 
 }

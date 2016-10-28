@@ -1,9 +1,9 @@
 package com.soarsky.policeclient.uitl;
 
+import android.support.design.BuildConfig;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.lenovo.quickapp.BuildConfig;
 
 import java.io.File;
 import java.io.FileWriter;

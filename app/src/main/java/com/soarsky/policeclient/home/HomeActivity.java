@@ -7,9 +7,10 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.lenovo.quickapp.R;
-import com.lenovo.quickapp.base.BaseActivity;
-import com.lenovo.quickapp.data.local.db.bean.Note;
+
+import com.soarsky.policeclient.R;
+import com.soarsky.policeclient.base.BaseActivity;
+import com.soarsky.policeclient.data.local.db.bean.Note;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,19 +20,6 @@ import butterknife.OnClick;
 
 public class HomeActivity extends BaseActivity<HomePresent,HomeModel> implements HomeView {
 
-    @Bind(R.id.add_note)
-    public Button addNote;
-
-    @Bind(R.id.note_content)
-    public EditText note_content;
-
-    @Bind(R.id.query_notes)
-    public Button query;
-
-    @Bind(R.id.show)
-    public ListView listView;
-
-    private List<Note> notes;
 
     @Override
     public int getLayoutId() {
@@ -42,36 +30,14 @@ public class HomeActivity extends BaseActivity<HomePresent,HomeModel> implements
     public void initView() {
     }
 
-    @OnClick(R.id.query_notes)
     public void query(View view) {
         mPresenter.getNotes();
-    }
-
-    @OnClick(R.id.add_note)
-    public void onClick(View view) {
-        String content = note_content.getText().toString();
-        note_content.setText("");
-        Note note = new Note();
-        note.setComment(content);
-        note.setText("not empty");
-        mPresenter.addNote(note);
-    }
-
-
-    @OnClick(R.id.modify_note)
-    public void modify(View view){
-
     }
 
 
     @Override
     public void showResult(List<Note> notes) {
-        List<String> list = new ArrayList<>();
-        for (Note note : notes) {
-            list.add(note.getComment());
-        }
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);
+
     }
 
     @Override

@@ -5,8 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.lenovo.quickapp.uitl.SpUtil;
-import com.lenovo.quickapp.uitl.TUtil;
+
+import com.soarsky.policeclient.uitl.SpUtil;
+import com.soarsky.policeclient.uitl.TUtil;
 
 import butterknife.ButterKnife;
 
