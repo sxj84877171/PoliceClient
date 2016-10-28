@@ -34,6 +34,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         this.initView();
         if (this instanceof BaseView){
             if(mPresenter != null){
+                mPresenter.context = this;
                 mPresenter.setVM(this, mModel);
             }
         }

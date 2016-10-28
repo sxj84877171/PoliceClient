@@ -11,6 +11,7 @@ public class SpUtil {
     static SharedPreferences prefs;
 
     public static void init(Context context) {
+        if(prefs == null)
         prefs = PreferenceManager.getDefaultSharedPreferences(context);
     }
 
